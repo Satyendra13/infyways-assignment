@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Infyways Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+
+    <div class="container">
+      <form action="/" method="post">
+        <div class="mt-5 d-flex justify-content-between">
+          <input type="text" class="form-control mx-2" name="username" placeholder="Enter Username">
+          <button type="submit" class="btn btn-primary mx-2 px-4" value="Get data">Submit</button>
+        </div>
+      </form>
+      <% if(data==null){ %>          
+        <h3 class="text-danger m-5">User does not exist or may be it's a private account</h3>
+      <% } else { %> 
+      <div class="m-5">
+        <h4 class="">Number of Followers: <%=data[0] %></h4>
+        <h4 class="">Number of Posts: <%=data[1] %></h4>
+        <h4 class="">Total Number of Comments on Posts: <%=data[2] %></h4>
+        <h4 class="">Total Number of Likes on Posts: <%=data[3] %></h4>
+      </div>
+      <div class="shadow p-5 mb-5 bg-body rounded   d-flex justify-content-between">
+        <h1>
+          Engagement Rate: 
+        </h1>
+        <h1>
+          <%=data[4]%> %
+        </h1>
+        
+      </div>
+      <%}%>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
