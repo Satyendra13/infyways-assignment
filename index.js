@@ -12,7 +12,7 @@ app.get("/", (req, res)=>{
     res.render("index", {data:''})
 })
 
-app.post("/", (req, res)=>{
+app.post("/getdata", (req, res)=>{
     let options = {
         // pythonPath: '',
         args: [req.body.username, process.env.PASSWORD]
