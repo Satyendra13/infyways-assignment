@@ -13,9 +13,9 @@ Install all the packages - go to the project directory and open command prompt
 # step3
 
 After installing al the packages run the project
- node index.js
+ 1. node index.js
 then open browser and search 
-  localhost:3000
+  2. localhost:3000
   
 # step 4
 
