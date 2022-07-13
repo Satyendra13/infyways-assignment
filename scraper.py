@@ -1,6 +1,5 @@
 import sys
 from instaloader import Instaloader, Profile
-from decouple import config
 target_profile = sys.argv[1]
 username = "satyendra_13"
 password = sys.argv[2]
