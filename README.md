@@ -7,15 +7,15 @@ Make the clone of this project
 
 # step2
 Install all the packages - go to the project directory and open command prompt
-1. npm install 
-2. pip install instaloader
+1. > npm install 
+2. > pip install instaloader
 
 # step3
 
 After installing all the packages run the project
- 1. node index.js
+ 1. > node index.js
 - then open browser and search 
- 2. localhost:3000
+ 2. > localhost:3000
   
 # step 4
 
