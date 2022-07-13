@@ -1,9 +1,9 @@
 # infyways-assignment
-#step 1
+# step 1
 Make the clone of this project 
 1. click on code and copy the https url
 2. open command prompt and run 
-    git clone url
+    > git clone url
 
 # step2
 Install all the packages - go to the project directory and open command prompt
@@ -12,11 +12,11 @@ Install all the packages - go to the project directory and open command prompt
 
 # step3
 
-After installing al the packages run the project
+After installing all the packages run the project
  1. node index.js
 - then open browser and search 
  2. localhost:3000
   
 # step 4
 
-Final step is just search for any instagram username in the input field and click on the submit button
+Final step is to just search for any instagram username in the input field and click on the submit button
